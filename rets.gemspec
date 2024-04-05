@@ -29,7 +29,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<nokogiri>, ["~> 1.5"])
       s.add_development_dependency(%q<rdoc>, ["~> 4.0"])
       s.add_development_dependency(%q<mocha>, ["~> 1.1.0"])
-      s.add_development_dependency(%q<vcr>, ["~> 2.2"])
+      s.add_development_dependency(%q<vcr>, "~> 6.2")
       s.add_development_dependency(%q<webmock>, ["~> 1.8"])
       s.add_development_dependency(%q<hoe>, ["~> 3.15"])
     else
@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<nokogiri>, ["~> 1.5"])
       s.add_dependency(%q<rdoc>, ["~> 4.0"])
       s.add_dependency(%q<mocha>, ["~> 1.1.0"])
-      s.add_dependency(%q<vcr>, ["~> 2.2"])
+      s.add_dependency(%q<vcr>, "~> 6.2")
       s.add_dependency(%q<webmock>, ["~> 1.8"])
       s.add_dependency(%q<hoe>, ["~> 3.15"])
     end
@@ -48,7 +48,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<nokogiri>, ["~> 1.5"])
     s.add_dependency(%q<rdoc>, ["~> 4.0"])
     s.add_dependency(%q<mocha>, ["~> 1.1.0"])
-    s.add_dependency(%q<vcr>, ["~> 2.2"])
+    s.add_dependency(%q<vcr>, "~> 6.2")
     s.add_dependency(%q<webmock>, ["~> 1.8"])
     s.add_dependency(%q<hoe>, ["~> 3.15"])
   end
